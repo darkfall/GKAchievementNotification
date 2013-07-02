@@ -131,7 +131,7 @@
                               _size.height);
     self.title = title;
     self.message = message;
-    if (self == [self initWithFrame:frame])
+    if ((self = [self initWithFrame:frame]))
     {
     }
     return self;
